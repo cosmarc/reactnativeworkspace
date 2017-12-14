@@ -8,7 +8,7 @@ const ROOT_URL = 'https://us-central1-one-time-password-b8e21.cloudfunctions.net
 class SignUpForm extends Component {
     state  = { phone: ''};
 
-    // equivalent to a normal function but this is automatically bound
+    // using an arrow function is equivalent to a normal function but this is automatically bound
     // wherever we pass the function as callback (ES 2017)
     // otherwise where we pass the function as callback we have to add
     // handleSubmit.bind(this)
