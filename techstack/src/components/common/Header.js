@@ -5,7 +5,9 @@ class Header extends Component {
   render() {
     return (
       <View style={styles.viewStyle}>
-        <Text style={styles.textStyle}>{this.props.headerText}</Text>
+        <Text style={styles.textStyle}>
+          {this.props.headerText}
+        </Text>
       </View>
     );
   }
